@@ -265,8 +265,8 @@ namespace NtfsDeletedFilesViewer
             exportButton.Text = "Export visible CSV";
             exportButton.AutoSize = true;
             exportButton.Enabled = false;
-            exportButton.Click += ExportButton_Click;
-            scanPanel.Controls.Add(exportButton);
+            //exportButton.Click += ExportButton_Click;
+            //scanPanel.Controls.Add(exportButton);
 
             copyButton = new Button();
             copyButton.Text = "Copy selection";
